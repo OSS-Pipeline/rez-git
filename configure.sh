@@ -44,8 +44,8 @@ cd ${BUILD_PATH}
 
 ${EXTRACT_PATH}/configure \
     --prefix=${INSTALL_PATH} \
-    CFLAGS=-fPIC \
-    CXXFLAGS=-fPIC \
+    CFLAGS="-fPIC" \
+    CXXFLAGS="-fPIC" \
     --with-python=${REZ_PYTHON_ROOT} \
     --with-zlib=${REZ_ZLIB_ROOT} \
     --with-curl=${REZ_CURL_ROOT}
